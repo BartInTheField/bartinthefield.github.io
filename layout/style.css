@@ -1,0 +1,64 @@
+ .header{
+		position: static;
+		display: block;
+		padding-bottom: 8px;
+		padding-left: 0px;
+		margin-left: 40px;
+		margin-right: 40px;  	
+		height: 150px;
+		border-bottom-style: solid;
+		color: white;
+ }
+ 
+ .hlink{ /* header linkjes */
+	 padding-right: 30px;
+ }
+ 
+ .content{
+	 margin-left: 250px;
+	 margin-right: 40px;
+	 font-family: Verdana;
+	 color: white;
+ }
+ 
+ h4{
+	 font-size: 140%;
+ }
+
+.Bart
+{
+  text-decoration: none;
+}
+
+.menu{
+	position: fixed;
+	margin-top: 10px;
+	margin-left: 40px;
+	padding-left: 10px;
+	top: 170px;
+	width: 170px;
+	color: white;
+	font-family: Verdana;
+	height:100%;
+}
+
+
+
+body{
+	background-color: #BEAB90;
+}
+
+a:link, a:visited{
+	color: white;
+	}
+a:hover{
+	color: #FFD800;
+}
+
+.imglink:hover{
+	background-color: #FFD800;
+}
+
+a.header {
+	text-decoration: none;
+}
