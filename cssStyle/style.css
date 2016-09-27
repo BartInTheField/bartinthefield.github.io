@@ -27,3 +27,24 @@
 .myFont{
   font-family: Blackout Midnight;
 }
+
+.pagination > li > a{
+  background-color: #222222;
+  color: white;
+}
+
+.pagination > .active > a{
+  background-color: white;
+  color: black;
+  border-color: black;
+}
+
+.pagination > .active > a:hover{
+  background-color: black;
+  border-color: white;
+}
+
+.container-fluid{
+  padding-left: 15%;
+  padding-right: 15%;
+}
