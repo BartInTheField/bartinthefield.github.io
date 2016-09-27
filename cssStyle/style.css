@@ -43,15 +43,3 @@
   background-color: black;
   border-color: white;
 }
-
-.container-fluid{
-  padding-left: 15%;
-  padding-right: 15%;
-}
-
-@media screen and (min-width: 480px){
-  .container-fluid{
-    padding-left: 15%;
-    padding-right: 15%;
-  }
-}
