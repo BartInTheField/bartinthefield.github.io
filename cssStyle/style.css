@@ -43,3 +43,19 @@
   background-color: black;
   border-color: white;
 }
+
+.textpx{
+  font-size: 18px;
+}
+
+@media screen and (min-width: 480px) {
+  iframe{
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  iframe{
+    padding-right: 0;
+  }
+}
