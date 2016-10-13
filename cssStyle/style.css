@@ -1,3 +1,4 @@
+
 .center{
   text-align: center;
 }
@@ -58,4 +59,10 @@
   iframe{
     padding-right: 0;
   }
+}
+
+.projectimg
+{
+  max-width:100%;
+  height:auto;
 }
