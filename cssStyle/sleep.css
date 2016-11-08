@@ -15,6 +15,22 @@
     background-image: url("../images/sea.jpg");
 }
 
+.calmimg{
+    background-image: url("../images/calm.jpeg");
+}
+
+.rainforestimg{
+    background-image: url("../images/rainforest.jpg");
+}
+
+.stormimg{
+    background-image: url("../images/storm.jpg");
+}
+
+.fireplaceimg{
+    background-image: url("../images/fireplace.jpeg");
+}
+
 body{
   background-color: black;
   color: white;
