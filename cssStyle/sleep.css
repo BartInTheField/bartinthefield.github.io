@@ -1,3 +1,17 @@
+
+.waterfallimg{
+      background-image: url("../images/waterfall.jpeg");
+    }
+
+.rainimg{
+    background-image: url("../images/rain.jpeg");
+}
+
 body{
   background-color: black;
+  color: white;
+}
+
+a, a:hover, a:active{
+  color: white;
 }
