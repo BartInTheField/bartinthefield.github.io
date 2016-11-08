@@ -7,6 +7,14 @@
     background-image: url("../images/rain.jpeg");
 }
 
+.jungleimg{
+    background-image: url("../images/jungle.jpg");
+}
+
+.seaimg{
+    background-image: url("../images/sea.jpg");
+}
+
 body{
   background-color: black;
   color: white;
