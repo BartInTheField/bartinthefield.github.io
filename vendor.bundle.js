@@ -9908,8 +9908,8 @@ module.exports = g;
 
 "use strict";
 /* unused harmony export ɵregisterLocaleData */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "j", function() { return NgLocaleLocalization; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "k", function() { return NgLocalization; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "k", function() { return NgLocaleLocalization; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "l", function() { return NgLocalization; });
 /* unused harmony export registerLocaleData */
 /* unused harmony export Plural */
 /* unused harmony export NumberFormatStyle */
@@ -9936,13 +9936,13 @@ module.exports = g;
 /* unused harmony export getLocaleNumberFormat */
 /* unused harmony export getLocaleCurrencyName */
 /* unused harmony export getLocaleCurrencySymbol */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "p", function() { return parseCookieValue; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "q", function() { return parseCookieValue; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return CommonModule; });
 /* unused harmony export DeprecatedI18NPipesModule */
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "h", function() { return NgClass; });
-/* unused harmony export NgForOf */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "i", function() { return NgForOf; });
 /* unused harmony export NgForOfContext */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "i", function() { return NgIf; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "j", function() { return NgIf; });
 /* unused harmony export NgIfContext */
 /* unused harmony export NgPlural */
 /* unused harmony export NgPluralCase */
@@ -9969,7 +9969,7 @@ module.exports = g;
 /* unused harmony export DeprecatedCurrencyPipe */
 /* unused harmony export DeprecatedDecimalPipe */
 /* unused harmony export DeprecatedPercentPipe */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "n", function() { return PLATFORM_BROWSER_ID; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "o", function() { return PLATFORM_BROWSER_ID; });
 /* unused harmony export ɵPLATFORM_SERVER_ID */
 /* unused harmony export ɵPLATFORM_WORKER_APP_ID */
 /* unused harmony export ɵPLATFORM_WORKER_UI_ID */
@@ -9978,16 +9978,16 @@ module.exports = g;
 /* unused harmony export isPlatformWorkerApp */
 /* unused harmony export isPlatformWorkerUi */
 /* unused harmony export VERSION */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "m", function() { return PlatformLocation; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "n", function() { return PlatformLocation; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return LOCATION_INITIALIZED; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return LocationStrategy; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return APP_BASE_HREF; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return HashLocationStrategy; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "l", function() { return PathLocationStrategy; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "m", function() { return PathLocationStrategy; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return Location; });
 /* unused harmony export ɵe */
 /* unused harmony export ɵd */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "o", function() { return DEPRECATED_PLURAL_FN; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "p", function() { return DEPRECATED_PLURAL_FN; });
 /* unused harmony export ɵb */
 /* unused harmony export ɵg */
 /* unused harmony export ɵf */
@@ -37682,7 +37682,7 @@ var BrowserDomAdapter = /** @class */ (function (_super) {
      * @param {?} name
      * @return {?}
      */
-    function (name) { return Object(__WEBPACK_IMPORTED_MODULE_0__angular_common__["p" /* ɵparseCookieValue */])(document.cookie, name); };
+    function (name) { return Object(__WEBPACK_IMPORTED_MODULE_0__angular_common__["q" /* ɵparseCookieValue */])(document.cookie, name); };
     /**
      * @param {?} name
      * @param {?} value
@@ -37925,7 +37925,7 @@ var BrowserPlatformLocation = /** @class */ (function (_super) {
         { type: undefined, decorators: [{ type: __WEBPACK_IMPORTED_MODULE_1__angular_core__["u" /* Inject */], args: [DOCUMENT$1,] },] },
     ]; };
     return BrowserPlatformLocation;
-}(__WEBPACK_IMPORTED_MODULE_0__angular_common__["m" /* PlatformLocation */]));
+}(__WEBPACK_IMPORTED_MODULE_0__angular_common__["n" /* PlatformLocation */]));
 
 /**
  * @fileoverview added by tsickle
@@ -40660,9 +40660,9 @@ var SafeResourceUrlImpl = /** @class */ (function (_super) {
  * found in the LICENSE file at https://angular.io/license
  */
 var INTERNAL_BROWSER_PLATFORM_PROVIDERS = [
-    { provide: __WEBPACK_IMPORTED_MODULE_1__angular_core__["K" /* PLATFORM_ID */], useValue: __WEBPACK_IMPORTED_MODULE_0__angular_common__["n" /* ɵPLATFORM_BROWSER_ID */] },
+    { provide: __WEBPACK_IMPORTED_MODULE_1__angular_core__["K" /* PLATFORM_ID */], useValue: __WEBPACK_IMPORTED_MODULE_0__angular_common__["o" /* ɵPLATFORM_BROWSER_ID */] },
     { provide: __WEBPACK_IMPORTED_MODULE_1__angular_core__["L" /* PLATFORM_INITIALIZER */], useValue: initDomAdapter, multi: true },
-    { provide: __WEBPACK_IMPORTED_MODULE_0__angular_common__["m" /* PlatformLocation */], useClass: BrowserPlatformLocation, deps: [DOCUMENT$1] },
+    { provide: __WEBPACK_IMPORTED_MODULE_0__angular_common__["n" /* PlatformLocation */], useClass: BrowserPlatformLocation, deps: [DOCUMENT$1] },
     { provide: DOCUMENT$1, useFactory: _document, deps: [] },
 ];
 /**
@@ -48551,7 +48551,7 @@ var RouterModule = /** @class */ (function () {
                     provide: __WEBPACK_IMPORTED_MODULE_0__angular_common__["g" /* LocationStrategy */],
                     useFactory: provideLocationStrategy,
                     deps: [
-                        __WEBPACK_IMPORTED_MODULE_0__angular_common__["m" /* PlatformLocation */], [new __WEBPACK_IMPORTED_MODULE_1__angular_core__["u" /* Inject */](__WEBPACK_IMPORTED_MODULE_0__angular_common__["a" /* APP_BASE_HREF */]), new __WEBPACK_IMPORTED_MODULE_1__angular_core__["I" /* Optional */]()], ROUTER_CONFIGURATION
+                        __WEBPACK_IMPORTED_MODULE_0__angular_common__["n" /* PlatformLocation */], [new __WEBPACK_IMPORTED_MODULE_1__angular_core__["u" /* Inject */](__WEBPACK_IMPORTED_MODULE_0__angular_common__["a" /* APP_BASE_HREF */]), new __WEBPACK_IMPORTED_MODULE_1__angular_core__["I" /* Optional */]()], ROUTER_CONFIGURATION
                     ]
                 },
                 {
@@ -48599,7 +48599,7 @@ var RouterModule = /** @class */ (function () {
 function provideLocationStrategy(platformLocationStrategy, baseHref, options) {
     if (options === void 0) { options = {}; }
     return options.useHash ? new __WEBPACK_IMPORTED_MODULE_0__angular_common__["d" /* HashLocationStrategy */](platformLocationStrategy, baseHref) :
-        new __WEBPACK_IMPORTED_MODULE_0__angular_common__["l" /* PathLocationStrategy */](platformLocationStrategy, baseHref);
+        new __WEBPACK_IMPORTED_MODULE_0__angular_common__["m" /* PathLocationStrategy */](platformLocationStrategy, baseHref);
 }
 /**
  * @param {?} router
